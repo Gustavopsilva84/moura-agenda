@@ -26,8 +26,8 @@ Como arquivos .env são arquivos que geralmente contém informações sensíveis
 
 Na pasta backend crie um arquivo .env e escreva o seguinte dentro dele: 
 
-`PORTA = 5554
-ENDERECO_BANCO = "./database/Banco.sqlite"`
+`PORTA = 5554`
+`ENDERECO_BANCO = "./database/Banco.sqlite"`
 
 Na pasta frontend crie um arquivo .env e escreva o seguinte dentro dele:
 
