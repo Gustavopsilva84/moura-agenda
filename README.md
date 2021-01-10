@@ -22,6 +22,17 @@ Agora va até o diretório do frontend e digite o seguinte comando:
 
 `npm install`
 
+Como arquivos .env são arquivos que geralmente contém informações sensíveis eles não são inseridos em repositórios. Geralmente os usuários tem tais arquivos configurados em suas maquinas ou ambientes de desenvolvimento. Porém neste caso por comodidade colocarei no README as configurações dos arquivos .env a serem não criados.
+
+Na pasta backend crie um arquivo .env e escreva o seguinte dentro dele: 
+
+`PORTA = 5554
+ENDERECO_BANCO = "./database/Banco.sqlite"`
+
+Na pasta frontend crie um arquivo .env e escreva o seguinte dentro dele:
+
+`PORTA = 5556'`
+
 ### Execução
 
 Tendo executado o comando npm install sem problemas execute a seguinte linha no direitório backend:
