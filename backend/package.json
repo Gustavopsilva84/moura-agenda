@@ -1,0 +1,24 @@
+{
+  "name": "moura-agenda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "iniciar": "node ./App.js",
+    "iniciar-dev": "nodemon ./App.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "sqlite-async": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html:root {
+  font-size: 62.5%;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background: radial-gradient(circle, #1C1C1C 0%, #494949 95%);
+}
+
+section {
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: ghostwhite;
+}
+@media (min-width: 42rem) {
+  section {
+    width: 32.4rem;
+  }
+}
+
+button {
+  margin: 0 0 3rem 0;
+  padding: 1rem;
+  min-width: 49%;
+  height: 5rem;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.formulario label {
+  font-size: 1.8rem;
+}
+.formulario input {
+  margin: 1rem 0;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  height: 5rem;
+  border: solid 0.1rem black;
+  border-radius: 0.5rem;
+}
+.formulario button {
+  margin-bottom: 0;
+  background-color: forestgreen;
+  border: solid 0.1rem forestgreen;
+  border-radius: 0.5rem;
+}
+.formulario .btn-cancelar {
+  background-color: dodgerblue;
+  border: solid 0.1rem dodgerblue;
+}
+
+.agenda ul {
+  list-style-type: none;
+}
+.agenda p {
+  padding: 1rem;
+  width: 100%;
+  min-height: 5rem;
+  max-height: 10rem;
+  line-height: 2;
+  background-color: lightgray;
+  border: solid 0.1rem darkgray;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.agenda div {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.agenda button {
+  display: inline-block;
+  width: 49.5%;
+  border: solid 0.1rem black;
+}
+.agenda button:first-of-type {
+  background-color: orange;
+  border: solid 0.1rem orange;
+  border-radius: 0.5rem;
+}
+.agenda button:last-of-type {
+  background-color: crimson;
+  border: solid 0.1rem crimson;
+  border-radius: 0.5rem;
+}
+
+/*# sourceMappingURL=estilo.css.map */
